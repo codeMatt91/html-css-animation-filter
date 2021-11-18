@@ -72,7 +72,7 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: filter 2s;
+    transition: border-radius 2s,filter 2s;
 }
 
 .ex-6-img:hover {
@@ -82,8 +82,10 @@
 .ex-7-img:hover {
     filter: sepia(0.6)
 }
-
-
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: saturate(0.3);
+}
 
 
 .ex-9-img {
