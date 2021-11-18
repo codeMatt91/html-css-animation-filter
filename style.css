@@ -87,11 +87,20 @@
     filter: saturate(0.3);
 }
 
+/* Exercise 9  */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: border-radius 2s, transform 2s, filter 2s;
 }
+.ex-9-img:hover {
+    border-radius: 20px;
+    transform: scale(1.5);
+    filter: sepia(0.7);
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
